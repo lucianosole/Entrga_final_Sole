@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<title>Cotizaciones</title>
+</head>
+
+<body>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href='../index.html'>Marcas</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href='./cotizacion.html'>Cotizacion del dolar</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href='./contacto.html'>Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+<h3 class="text-center">Cotizaciones del dia</h3>
+
+<div class="container-fluid m-auto text-center d-flex justify-content-around">
+	<div class="row" id="cotizacion"></div>
+</div>
+
+	<div class="row rounded-1 bg-body-secondary container-fluid m-1">
+		<div class="col-md-6 d-flex align-items-center fw-bold">Simulador del Automotor </div>
+		<div class="col-md-6 d-flex justify-content-end ">Luciano Solé 2023</div>
+	</div>
+		
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src='../js/cotiza.js'></script>
+</body>
+</html>
